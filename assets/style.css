@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.about-us {
+  padding: 20px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.pic {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.text {
+  padding: 10px;
+}
+
+h2, h3, h5 {
+  margin: 10px 0;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.data {
+  margin-top: 15px;
+}
+
+.hire {
+  padding: 10px 15px;
+  background-color: #6DCDB1;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Responsive Styles */
+@media (min-width: 600px) {
+  .about {
+      flex-direction: row;
+      align-items: center;
+  }
+
+  .text {
+      padding-left: 20px;
+  }
+
+  .pic {
+      width: 50%;
+      max-width: 300px;
+  }
+}
+
+@media (min-width: 900px) {
+  .about {
+      margin-bottom: 40px;
+  }
+
+  .pic {
+      width: 40%;
+  }
+
+  .text {
+      width: 60%;
+  }
+}
